@@ -22,12 +22,6 @@ export function Hero() {
             Explore my work
           </a>
 
-          <a
-            className="inline-flex items-center gap-2 rounded-full border border-slate-300 bg-white px-6 py-3.5 font-semibold text-slate-700 transition hover:border-emerald-500 hover:text-emerald-700"
-            href="mailto:"
-          >
-            Email me
-          </a>
         </div>
       </div>
 
