@@ -21,7 +21,10 @@ function App() {
         <Experience />
         <Education />
       </main>
-      <footer className="bg-slate-950 px-5 py-7 text-center text-sm text-slate-500">© {new Date().getFullYear()} Clara Tsai. Built with React, TypeScript & Tailwind CSS.</footer>
+      <footer className="bg-slate-950 px-5 py-7 text-center text-sm text-slate-500">
+        <p>© {new Date().getFullYear()} Clara Tsai.</p>
+        <a className="mt-3 inline-block text-slate-300 transition hover:text-white" href="https://www.linkedin.com/in/clara-tsai-4094b0265/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn</a>
+      </footer>
     </div>
   )
 }
